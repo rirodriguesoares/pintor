@@ -1,0 +1,18 @@
+'''
+Programa que calcula o gasto de tinta por m²
+By: Ricardo Rodrigues Soares
+Phone: +55 11 95593 9797
+E-mail: rcddigital.it@gmail.com / ri.rodriguesoares@gmail.com
+'''
+
+print("Cálculadora de Tinta")
+
+altura = float(input('Coloque a Altura da parede separado por ponto: '))
+largura = float(input('Coloque a Largura da parede separado por ponto: '))
+
+area = largura*altura
+litro =int(1*(2**2))
+tinta = int (area/litro)
+
+print (f'Sua parede possui {area:.3} metros quadrados!')
+print (f'Você vai precisar de {tinta} litros de tinta para pintar toda parede!')
